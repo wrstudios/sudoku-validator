@@ -9,7 +9,11 @@ Write a command-line program that can read a file containing a Sudoku grid and v
 - `fork the github repo`
 - run `bin/setup`
 
-Fork the GitHub repo into your own account and do all your work on a feature branch named `{initials}-solution`.  Once you are done with your solution and all the tests are passing, submit a pull request for review.
+Fork the GitHub repo into your own account and do all your work on a feature branch named `{initials}-solution`.  Once you are done with your solution and all the tests are passing, submit a pull request on your forked copy for review and email us the link to your PR.
+
+# IMPORTANT 
+*DO NOT* submit a PR to our repository - We would like to keep all solution submissions separate and not in the public view.
+Follow these [instructions](https://help.github.com/articles/creating-a-pull-request/) if you are unsure of the process.
 
 ## Exercise Details:
 A Sudoku is valid if:
