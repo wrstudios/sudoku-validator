@@ -1,3 +1,5 @@
+require 'sudoku'
+
 class Validator
   def initialize(puzzle_string)
     @puzzle_string = puzzle_string
@@ -8,11 +10,14 @@ class Validator
   end
 
   def validate
+    sudoku_board = Sudoku.new(@puzzle_string)
+    sudoku_board.validate_board
     # Start creating your solution here.
     #
     # It's likely that you'll want to have many more classes than this one that
     # was provided for you. Don't be hesistant to extract new objects (and
     # write tests for them).
+
   end
 
 end
